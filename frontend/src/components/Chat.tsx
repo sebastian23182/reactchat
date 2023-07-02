@@ -3,7 +3,7 @@ import { Logout } from "../icons/Logout";
 import { useChat } from "../hooks/useChat";
 import io from "socket.io-client";
 
-const socket = io("https://reactchat-backend.onrender.com");
+const socket = io("https://reactchat-production-a4ab.up.railway.app/");
 
 interface Message {
   body: { 
